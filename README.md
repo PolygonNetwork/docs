@@ -1,7 +1,7 @@
 <h1 align="center">Polygon Network</h1>
 <h4 align="center">Version 1.0 </h4>
 
-English | [中文](README_cn.md)
+English | [中文](README_CN.md)
 
 Welcome to the Polygon Network cross chain technology center!
 
