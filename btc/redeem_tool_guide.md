@@ -44,10 +44,10 @@ A sample configuration could look something like the following sample.
 > The default configuration settings can be used by only modifying the fields marked with an asterisk*
 
 
-The BTC and relay chain wallets use the same format. Private keys can be converted to wallets using this [tool](https://github.com/ontio/cross-chain/blob/master/btc/cross-chain_transaction_construction_tool_user_manual.md). The same conversion can be performed using the Polygon (relay chain). You can enter your WIF private key in the `priv` file which can then be used to generate a wallet. Please ensure that you delete the contents of the file after generating the wallet.
+The BTC and relay chain wallets use the same format. Private keys can be converted to wallets using this [tool](https://github.com/ontio/cross-chain/blob/master/btc/cross-chain_transaction_construction_tool_user_manual.md). The same conversion can be performed using the Poly (relay chain). You can enter your WIF private key in the `priv` file which can then be used to generate a wallet. Please ensure that you delete the contents of the file after generating the wallet.
 
 ```shell
-./polygon account import -w btcprivk --source ./priv --wif
+./poly account import -w btcprivk --source ./priv --wif
 ```
 
 ### 3. Enabling the tool

@@ -1,4 +1,4 @@
-<h1 align=center>Polygon Chain Governance Mechanism </h1>
+<h1 align=center>Poly Chain Governance Mechanism </h1>
 
 ## Node Governance
 

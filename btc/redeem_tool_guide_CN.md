@@ -41,10 +41,10 @@
 }
 ```
 
-​	比特币钱包和中继链钱包采取了同样的格式，可以通过该[工具](https://github.com/ontio/cross-chain/blob/master/btc/cross-chain_transaction_construction_tool_user_manual.md)将私钥转换为钱包，或者通过Polygon转换，priv文件填写你的WIF格式私钥，生成完毕后记得删除：
+​	比特币钱包和中继链钱包采取了同样的格式，可以通过该[工具](https://github.com/ontio/cross-chain/blob/master/btc/cross-chain_transaction_construction_tool_user_manual.md)将私钥转换为钱包，或者通过Poly转换，priv文件填写你的WIF格式私钥，生成完毕后记得删除：
 
 ```
-./polygon account import -w btcprivk --source ./priv --wif
+./poly account import -w btcprivk --source ./priv --wif
 ```
 
 ### 3. 启动

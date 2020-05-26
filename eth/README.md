@@ -20,7 +20,7 @@ As illustrated in the above figure, the cross chain framework consists of the Et
 
 The components involved in this process:
 
-- [**Relay Chain**](): The relay chain is one of the crucial components of the cross chain ecosystem. Each different type of node that is deployed and maintained by different individuals or organizations and has its unique governance and trust mechanism. The relay chain is responsible for connecting them, standardizing cross chain data flow and interfaces, and verifying the legitimacy of cross chain data, etc.
+- [**Relay Chain**](../poly/How_to_join_cross_chain.md): The relay chain is one of the crucial components of the cross chain ecosystem. Each different type of node that is deployed and maintained by different individuals or organizations and has its unique governance and trust mechanism. The relay chain is responsible for connecting them, standardizing cross chain data flow and interfaces, and verifying the legitimacy of cross chain data, etc.
 - [**Relayer**](https://github.com/ontio/cross-chain/blob/master/eth/ethereum_relayer_manual.md): Each chain in the cross chain ecosystem has a relayer associated to it that is reponsible for monitoring the transactions taking place on the relay chain and then transferring them to the respective target chain, and vice versa. Thus they act as the medium of interaction between Ethereum and the outside world. Relayers collect small incentives carrying out the above stated tasks.
 - [**Ethereum Chain**](https://github.com/ontio/cross-chain/blob/master/eth/ethereum_relayer_manual.md): Ethereum is the base chain from where the cross chain ecosystem originates. Any dApp can utilize the cross chain smart contract mechanism to implement complex functionality for cross chain scenarios.
 
